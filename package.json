@@ -1,0 +1,46 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --inspect",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^3.14.0",
+    "@nuxt/eslint": "^0.7.5",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@vee-validate/zod": "^4.15.0",
+    "@vueuse/core": "^12.4.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "consola": "^3.4.0",
+    "drizzle-orm": "^0.38.4",
+    "drizzle-zod": "^0.6.1",
+    "eslint": "^9.18.0",
+    "lucide-vue-next": "^0.473.0",
+    "nuxt": "^3.15.2",
+    "nuxt-auth-utils": "^0.5.7",
+    "postgres": "^3.4.5",
+    "radix-vue": "^1.9.12",
+    "shadcn-nuxt": "^0.11.3",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vee-validate": "^4.15.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.2",
+    "typescript": "^5.7.3",
+    "vue-tsc": "^2.1.10"
+  }
+}
